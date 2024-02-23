@@ -2,7 +2,11 @@
 module.exports = {
   content: ['./build/*.html'],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        TofinoProNarrow: ['"TofinoProNarrowRegular", "sans-serif"']
+      }
+    },
   },
   plugins: [],
 }
