@@ -558,6 +558,11 @@ video {
   display: flex;
 }
 
+.size-3 {
+  width: 0.75rem;
+  height: 0.75rem;
+}
+
 .h-dvh {
   height: 100dvh;
 }
@@ -572,6 +577,10 @@ video {
 
 .w-96 {
   width: 24rem;
+}
+
+.w-10 {
+  width: 2.5rem;
 }
 
 .max-w-screen-md {
@@ -631,6 +640,16 @@ video {
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .text-white {
